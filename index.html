@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tayyab - Viral Video Strategist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Teko:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Animation Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="links">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background-text">
+            <span>HI, I'M TAYYAB</span>
+        </div>
+
+        <div class="hero-content">
+            <img src="./character.png" alt="3D Character" class="hero-character">
+
+            <div class="hero-description">
+                A creator shaping bold, clean, and unforgettable stories.
+            </div>
+
+            <a href="https://wa.me/923461247177" target="_blank" rel="noopener noreferrer" class="hero-cta">
+                CONTACT ME 🤙
+            </a>
+        </div>
+
+        <!-- Marquee -->
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <span>ICON</span>
+                <span>SPOKEN WINES</span>
+                <span>BUTTERBAR SKINCARE</span>
+                <span>TRUE CLASSIC</span>
+                <span>BOBA TEA PROTEIN</span>
+                <span>ICON</span>
+                <span>SPOKEN WINES</span>
+                <span>BUTTERBAR SKINCARE</span>
+                <span>TRUE CLASSIC</span>
+                <span>BOBA TEA PROTEIN</span>
+            </div>
+            <!-- Duplicate for seamless scrolling -->
+            <div class="marquee-content" aria-hidden="true">
+                <span>ICON</span>
+                <span>SPOKEN WINES</span>
+                <span>BUTTERBAR SKINCARE</span>
+                <span>TRUE CLASSIC</span>
+                <span>BOBA TEA PROTEIN</span>
+                <span>ICON</span>
+                <span>SPOKEN WINES</span>
+                <span>BUTTERBAR SKINCARE</span>
+                <span>TRUE CLASSIC</span>
+                <span>BOBA TEA PROTEIN</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <!-- 3D Shapes -->
+        <div class="shape-wrapper shape-wrapper-1">
+            <img src="./shape-1.png" alt="Abstract Shape" class="about-shape shape-1">
+        </div>
+        <div class="shape-wrapper shape-wrapper-2">
+            <img src="./shape-2.png" alt="Abstract Shape" class="about-shape shape-2">
+        </div>
+
+        <h2 class="section-title">ABOUT ME</h2>
+
+        <div class="about-content">
+            <p>
+                With over four years of experience in video editing, content strategy, and emerging AI tools, I
+                specialize in creating clean, high-impact visuals that drive real engagement. I love partnering with
+                creators and businesses who want to elevate their digital presence and truly stand out.
+            </p>
+            <p>
+                Let's create something powerful together.
+            </p>
+
+            <a href="https://wa.me/923461247177" target="_blank" rel="noopener noreferrer" class="hero-cta about-cta">
+                CONTACT ME 🤙
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-container">
+            <h2 class="services-title">SERVICES</h2>
+
+            <div class="services-list">
+                <div class="service-item">
+                    <span class="service-number">01</span>
+                    <div class="service-info">
+                        <h3>High-Retention Video Editing</h3>
+                        <p>Editing designed to keep viewers watching longer and improve your overall performance.</p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <span class="service-number">02</span>
+                    <div class="service-info">
+                        <h3>Graphic Design & Creative Branding</h3>
+                        <p>Modern, bold visuals that define your brand. Thumbnails, banners, social graphics, and
+                            identity elements crafted for instant recognition.</p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <span class="service-number">03</span>
+                    <div class="service-info">
+                        <h3>Social Media Growth Strategy</h3>
+                        <p>Effective content planning backed by SEO, analytics, and content optimization. Includes
+                            posting systems, audience engagement strategy, and growth-focused insights to maximize reach
+                            and performance.</p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <span class="service-number">04</span>
+                    <div class="service-info">
+                        <h3>Advanced Visual Design</h3>
+                        <p>Professional animations, kinetic text, and custom visuals that make your videos feel
+                            expensive.</p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <span class="service-number">05</span>
+                    <div class="service-info">
+                        <h3>3D Visual Identity</h3>
+                        <p>Signature 3D elements added to create a distinct brand style for your content.</p>
+                    </div>
+                </div>
+
+                <div class="service-item">
+                    <span class="service-number">06</span>
+                    <div class="service-info">
+                        <h3>AI-Driven Optimization</h3>
+                        <p>Using modern AI tools to enhance quality, speed, and consistency across your content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">PROJECTS</h2>
+
+        <div class="projects-grid">
+            <!-- Short-Form Content -->
+            <div class="project-category">
+                <h3 class="category-title">SHORT-FORM CONTENT</h3>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">01</div>
+                <div class="project-info">
+                    <h3 class="project-name">MMA Almost Banned</h3>
+                    <p class="project-description">A fast-paced recap of the chaotic 1993 MMA era when the sport's raw,
+                        unregulated fights nearly led to a nationwide ban.</p>
+                </div>
+                <a href="https://youtu.be/gI1D_ifSYNc?si=01Ait0KSsXlhqDls" target="_blank" class="project-link">VIEW
+                    PROJECT →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">02</div>
+                <div class="project-info">
+                    <h3 class="project-name">AI Story Advertising</h3>
+                    <p class="project-description">An AI-driven indirect ad for True Classic, crafted with smooth
+                        pacing, subtle storytelling, and a natural flow that highlights the brand without feeling
+                        salesy.</p>
+                </div>
+                <a href="https://youtube.com/shorts/c4vNvKgHocA?si=64hxzRQb_l83_KuP" target="_blank"
+                    class="project-link">VIEW PROJECT →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">03</div>
+                <div class="project-info">
+                    <h3 class="project-name">True Classic Direct</h3>
+                    <p class="project-description">A direct AI-driven ad for True Classic, featuring clear messaging,
+                        bold product focus, and fast-paced storytelling to capture attention immediately.</p>
+                </div>
+                <a href="https://youtube.com/shorts/HsLXw1_99h0?si=CFfncz4Wz_5FBbbc" target="_blank"
+                    class="project-link">VIEW PROJECT →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">04</div>
+                <div class="project-info">
+                    <h3 class="project-name">Real Estate Spotlight</h3>
+                    <p class="project-description">A sleek, high-end real estate edit highlighting property features,
+                        smooth transitions, and clean visuals to engage potential buyers and showcase the home
+                        professionally.</p>
+                </div>
+                <a href="https://youtube.com/shorts/yL0tX-1DmAk?si=hqAHYFDgXFzurFAs" target="_blank"
+                    class="project-link">VIEW PROJECT →</a>
+            </div>
+
+            <!-- Long-Form Content -->
+            <div class="project-category">
+                <h3 class="category-title">LONG-FORM CONTENT</h3>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">05</div>
+                <div class="project-info">
+                    <h3 class="project-name">Mexican Wine Story</h3>
+                    <p class="project-description">A captivating edit for SpokenWines, exploring Mexican wines in Valle
+                        de Guadalupe. Highlights the unique terroir, rich history, and vibrant culture with smooth
+                        pacing and engaging storytelling.</p>
+                </div>
+                <a href="https://youtu.be/_TZHhc6DXLQ?si=z5yQbYRwscmrxsQP" target="_blank" class="project-link">VIEW
+                    PROJECT →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">06</div>
+                <div class="project-info">
+                    <h3 class="project-name">Computer Basics Explained</h3>
+                    <p class="project-description">An engaging educational edit for The Mysterious Tech, covering 6 key
+                        computer concepts like CPU cores, cache, CUDA cores, and more, with clear visuals and smooth
+                        pacing to keep viewers engaged.</p>
+                </div>
+                <a href="https://youtu.be/p86QAKTSalE?si=pPuNQHd_G3Jku7yY" target="_blank" class="project-link">VIEW
+                    PROJECT →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">07</div>
+                <div class="project-info">
+                    <h3 class="project-name">Mallorca Travel Guide</h3>
+                    <p class="project-description">An engaging travel edit for MultiCityTrips, highlighting the 10 best
+                        places and activities in Mallorca, Spain. Smooth pacing, visually appealing shots, and clear
+                        storytelling make it easy for viewers to explore the destination.</p>
+                </div>
+                <a href="https://youtu.be/cO8Lxab8Hs4?si=aDirVcrJpBQauMkU" target="_blank" class="project-link">VIEW
+                    PROJECT →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-number">08</div>
+                <div class="project-info">
+                    <h3 class="project-name">$10K Coaching System</h3>
+                    <p class="project-description">An engaging business coaching edit for Tim Frey, showcasing a
+                        step-by-step system to add $10K/month. Smooth pacing, clear visuals, and high-impact motion
+                        graphics make complex strategies easy to follow and highly actionable.</p>
+                </div>
+                <a href="https://youtu.be/jRabW55cS5w?si=p93Fsi1IeadzCoEA" target="_blank" class="project-link">VIEW
+                    PROJECT →</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2 class="contact-title">LET'S<br>GET IN<br>TOUCH</h2>
+
+            <div class="contact-info">
+                <a href="mailto:tayyabvideoediting@gmail.com" class="contact-email">tayyabvideoediting@gmail.com</a>
+                <a href="https://www.linkedin.com/in/tayyab-mansoor-70a213361?utm_source=share&utm_content=profile&utm_medium=member_android"
+                    target="_blank" class="contact-linkedin">LINKEDIN PROFILE →</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
